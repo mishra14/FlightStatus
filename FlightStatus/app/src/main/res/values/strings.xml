@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flight Status</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="FlightStatus">Status</string>
+    <string name="ChangeTime">Change Time</string>
+    <string name="defaultTime">Time</string>
+
+</resources>

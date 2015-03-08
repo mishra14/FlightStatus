@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankit.flightstatus.HomePage"
+    android:id="@+id/primaryLayout">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/foreGround"
+        android:src="@drawable/positive"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/action_example" />
+
+    <ImageView
+        android:layout_below="@+id/foreGround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backGround"
+        android:scaleType="fitXY"
+        android:src="@drawable/bck"
+        android:contentDescription="@string/action_example"/>
+
+    <TextView
+        android:text="@string/FlightStatus"
+        android:id="@+id/status"
+        style="@style/LargeText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/SmallText"
+        android:text="@string/defaultTime"
+        android:id="@+id/statusTime"
+        android:layout_below="@+id/status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeTime"
+        android:id="@+id/changeTime"
+        android:onClick="changeTime"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Flight"
+        android:id="@+id/cancelFlight"
+        android:onClick="cancelFlight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
