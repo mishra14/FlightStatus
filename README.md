@@ -3,7 +3,7 @@ Flight Status Application
 
 Functionality - 
 	The flight has a default schedule of 18:30. The Change Time Button can be used to test the application via 	the 	TimePicker. The following are the behavioral traits - 
-•	Default - Flight is on Time
+•	Default - Flight is on Time <br>
 •	Selection from 00:00 to 16:29 - On Time
 •	Selection from 17:30 to 18:10 - Boarding
 •	Selection from 18:11 to 18:30 - Gate Closed
